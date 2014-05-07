@@ -10,7 +10,7 @@ themeroot = "/home/rasmus/.config/awesome/themes/arch"
 
 theme.wallpaper = "/home/rasmus/.config/awesome/themes/arch/background.jpg"
 
-theme.font          = "d3euronism 11"
+theme.font          = "Courier 15"
 
 theme.bg_normal     = "#000000"
 theme.bg_focus      = "#1793d1"
