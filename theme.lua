@@ -1,6 +1,5 @@
 -- Arch theme for awesome3. 
 -- Created by an unknown person.  
--- Modifications including portation to Awesome 3.5 by R4zzM
 
 theme = {}
 
@@ -10,15 +9,19 @@ themeroot = "/home/rasmus/.config/awesome/themes/arch"
 
 theme.wallpaper = "/home/rasmus/.config/awesome/themes/arch/background.jpg"
 
-theme.font          = "Courier 15"
+-- theme.font          = "edges 16"
+-- theme.font          = "kates 16"
+theme.font          = "snap 14"
 
 theme.bg_normal     = "#000000"
 theme.bg_focus      = "#1793d1"
 theme.bg_urgent     = "#ff0000"
 theme.bg_minimize   = "#000000"
+theme.bg_systray    = theme.bg_normal
 
 theme.fg_normal     = "#1793d1"
 theme.fg_focus      = "#000000"
+-- theme.fg_focus      = "#343434"
 theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#1793d1"
 
@@ -96,5 +99,3 @@ theme.layout_dwindle = themeroot .. "/layouts/dwindlew.png"
 theme.awesome_icon = themeroot .. "/arch_logo_blue.png"
 
 return theme
-
--- vim: filetype=lua:expandtab:shiftwidth=4:tabstop=8:softtabstop=4:encoding=utf-8:textwidth=80
